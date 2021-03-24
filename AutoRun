@@ -7,3 +7,4 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
 print("Loaded Anti Afk")
 
+game.Players.LocalPlayer.Character:WaitForChild"Humanoid".Health = 0
