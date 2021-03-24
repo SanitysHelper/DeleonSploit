@@ -6,7 +6,3 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
 print("Loaded Anti Afk")
-
-game.Players.LocalPlayer.Character:WaitForChild"Humanoid".Health = 0
-wait(5)
-game.Players.LocalPlayer:Kick("Nigga stop exploiting bitch ass nigga fuck word shit shit shit shit")
