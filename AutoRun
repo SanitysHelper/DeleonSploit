@@ -6,13 +6,3 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
 print("Loaded Anti Afk")
-
-for i,v in pairs(workspace:GetDescendants()) do
-if v:IsA("BasePart") then
-spawn(function()
-Instance.new("Explosion", v)
-wait(2)
-v.Anchored = false
-end)
-end
-end
